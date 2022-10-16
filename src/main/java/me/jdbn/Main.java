@@ -2,6 +2,7 @@ package me.jdbn;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Board board = new Board(7, 7);
+        board.print();
     }
 }
